@@ -1,37 +1,29 @@
 - > FSH
-- FSH is a React-based web project built with a focus on creating a clean and interactive user interface.
-- The project was developed to practice building a modern frontend application using React, reusable components, routing, and responsive styling.
+A React-based web application for exploring and managing sustainable fashion through a clean, interactive, and responsive user interface.
 
-- > Features
--Clean and responsive user interface
--React-based components
--Page navigation using React Router
--Interactive UI elements
--Organized project structure
--Responsive styling with Tailwind CSS
+Architecture
+User
+  ↓
+React UI
+  ↓
+React Components
+  ↓
+React Router
+  ↓
+Pages / Features
+  ↓
+Interactive Interface
 
 - > Technologies Used
--React.js
--JavaScript
--Vite
--Tailwind CSS
--React Router
 
--> Project Structure
+React.js,
+JavaScript,
+Vite,
+Tailwind CSS,
+React Router
 
-FSH/
-│
-├── src/
-│   ├── data/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── styles.css
-│
-├── index.html
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-
--> 
+->Commands
+git clone https://github.com/pravalikanelluri/FSH.git
+cd FSH
+npm install
+npm run dev
